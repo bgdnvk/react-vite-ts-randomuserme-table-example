@@ -1,6 +1,6 @@
+import { User } from "randomuser-sdk-ts/src/types/User";
 import { FilterUser } from "../types/FilterUser";
 import { SortUser } from "../types/SortUser";
-import { User } from "../types/User";
 
 //return filtered data from the search components
 export default function filterUsers(users: User[], filter: FilterUser, sort: SortUser): User[] {
