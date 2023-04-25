@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react'
 import { CSVLink } from 'react-csv'
 import './App.css'
 //types
-import { User } from './lib/types/User'
+// import { User } from './lib/types/User'
+import { User } from 'randomuser-sdk-ts/src/types/User'
 import { SortUser } from './lib/types/SortUser'
 import { FilterUser } from './lib/types/FilterUser'
 //utils
